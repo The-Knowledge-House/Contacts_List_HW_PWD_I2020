@@ -1,12 +1,12 @@
 import Contact from './Contact';
-import Data from './data/contacts.json';
+import {results} from '../data/contacts.json';
 
 const Contacts = () => {
-    console.log(Data);
+    console.log(results);
         return(
-            <div>
-                {Data.map( (contact, index) => {
-                    return <Contact contact={contact} />
+            <div className="contacts">
+                {results.map( (contact, index) => {
+                    return <Contact {...contact} />
                 })}
             </div>
         )

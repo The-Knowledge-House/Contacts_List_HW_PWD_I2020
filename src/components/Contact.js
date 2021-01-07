@@ -1,17 +1,25 @@
-const Contact = (props) => {
-    console.log("props", props);
+import './contact.css';
 
-        const { contact } = props
-            console.log("This is a contact", contact);
+const Contact = ({ ...therest }) => {
+//    console.log("props", props);
+
+            console.log(therest.gender);
 
             return(
-                <div>
-                    <p>Image: {contact.picture}</p>          {/* How do I access "large", "medium" or "thumbnail"? */}
-                    <p>Name: {contact.name}</p>              {/* How do I access "first", and "last" together? */}   
-                    <p>Home: {contact.phone}</p>             
-                    <p>Mobile: {contact.cell}</p>            
+                <div className="card">
+                    <div className="person">
+                    <img src={therest.picture.large}/> 
+                    <div className="contactinfo">         
+                        <p>Name: {therest.name.first} {therest.name.last}</p>              
+                        <p>Home: {therest.phone}</p>             
+                        <p>Mobile: {therest.cell}</p>
+                    </div>
+                    </div>            
                 </div>
             )
 }
 
 export default Contact;
+
+//          const { contact } = props 
+//          You can destructure this in the statement instead of on a separate line
