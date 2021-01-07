@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: gainsboro solid 2px;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.imgContainer {
+  width: 48%;
+  margin-right: 2%;
+}
+
+img{
+  width: 48%;
+  border-radius: 50%;
+  border: black 4px solid;
+  width: 50%;
+
+}
+
+.contactInfo{
+  width: 48%;
+  margin-left: 2%;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 1.1vw;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
