@@ -1,14 +1,19 @@
 import Contact from "./Contact"
 import Data from "../data/contacts.json"
+import "./Main.css"
 
 
 
 function Main() { 
-  return (
-    <div>
-      
+  console.log(Data);
 
-      <Contact />
+  return (
+    <div className="mainContent">
+      {
+        Data.results.map((contact) => { 
+          return <Contact contactObj={ contact } />
+        })
+      }
     </div>
   );
 }
