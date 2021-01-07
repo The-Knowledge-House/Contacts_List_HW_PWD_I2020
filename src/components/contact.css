@@ -1,0 +1,73 @@
+body {
+    overflow: hidden;
+}
+
+.contacts {
+    overflow-y: auto;
+    margin: 10% auto;
+    width: 400px;
+    height: 800px;
+}
+
+.card {
+    border-top: 5px solid gray;
+  }
+
+.person {
+    top: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactinfo {
+    margin-left: 20px;
+
+
+}
+
+.person img {
+    
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid black;
+    /* float: left; */
+    /* display: flex; */
+}
+
+.card p {
+   /* float: right; */
+   /* display: inline-flex; */
+}
+@keyframes scroll {
+    100% { top: -360px; }  /* top is the number of spans (in this case 8) multiplied by span height (45px as described above)*/
+} 
+
+
+
+/* .card{
+    position:relative;
+    background:red;
+    max-height:225px;  /*height to show an exact number of spans  - in this case span is 45px (40 height plus 5 margin as margins collapse) and we are showing 5 spans to start */
+    /* float:left;
+    width:315px;
+    height:225px;
+    overflow:hidden;
+    overflow-y:auto;
+  } */
+  /* .person{
+    position:absolute;
+      top:0;
+        animation: scroll 10s linear 1s infinite;
+  } */
+  /* .person {
+    min-width:290px;
+    min-height:40px;
+    display:block;
+    color:white;
+    margin:5px;
+    background:blue;
+  } */
+ 
