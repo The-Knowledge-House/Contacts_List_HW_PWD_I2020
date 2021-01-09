@@ -1,10 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Contacts from "./components/Contacts";
+import Title from "./components/Title";
+import { results } from "./data/contacts.json";
 function App() {
   return (
     <div className="App">
-      <h1>Contact List</h1>
+      <Title />
+
+      <div className="main">
+        {results.map((contact, i) => {
+          return <Contacts key={`${i} Contacts`} {...contact}></Contacts>;
+        })}
+      </div>
     </div>
   );
 }
