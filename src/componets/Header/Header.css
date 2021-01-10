@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  box-shadow: 4px 4px 4px whitesmoke;
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+}
