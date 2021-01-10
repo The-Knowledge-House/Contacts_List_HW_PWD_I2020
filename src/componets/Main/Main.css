@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+  border: 0.5px solid white;
+  background-color: #424242;
+}
+
+img {
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  border: 1px solid white;
+}
+h3 {
+  color: white;
+}
+p {
+  color: white;
+}

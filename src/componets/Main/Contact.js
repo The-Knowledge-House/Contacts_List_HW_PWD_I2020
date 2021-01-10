@@ -1,7 +1,6 @@
 import React from "react";
 import Main from "./Main";
 import { results } from "../../data/contacts.json";
-import "./Contact.css";
 
 const Contact = () => {
   return (
