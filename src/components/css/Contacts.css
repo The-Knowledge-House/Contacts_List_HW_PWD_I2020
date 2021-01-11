@@ -1,0 +1,16 @@
+:root {
+  --first-color: #f1eee5;
+  --second-color: #e6e2d6;
+  --third-color: #ffff;
+  --fourth-color: #000000;
+  --fifth-color: #97aebc;
+}
+
+.all-contacts {
+  width: 400px;
+  height: 600px;
+  max-height: 800px;
+  overflow-y: auto;
+  margin: auto;
+  background-color: var(--first-color);
+}
