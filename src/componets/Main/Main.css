@@ -1,0 +1,29 @@
+.container {
+  height: 250px;
+  margin: 0;
+  border: 1px solid white;
+  background: #424242;
+}
+.contactInfo {
+  margin: 1em auto;
+}
+img {
+  border-radius: 50%;
+  /* height: auto;
+  width: auto; */
+  border: 2px solid #4050b5;
+}
+h4 {
+  color: white;
+  margin: -12px 8px;
+}
+p {
+  color: white;
+  margin: 10px;
+}
+.img-div {
+  display: flex;
+}
+.num {
+  margin: 1em auto;
+}

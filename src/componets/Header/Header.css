@@ -1,0 +1,12 @@
+.div-header {
+  display: flex;
+}
+.icon {
+}
+
+/* 
+@media only screen and (max-width: 400px) {
+  .icon {
+    margin-left: ;
+  }
+} */
