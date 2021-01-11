@@ -10,7 +10,6 @@ const Main = ({ name, picture, cell, phone }) => {
           <p> Phone:{cell}</p>
         </div>
       </div>
-
       <div className="contactInfo">
         <h4>
           {name.first} {name.last}

@@ -1,10 +1,10 @@
 .App {
 }
-button {
+.wrapper button {
   background-color: #424242;
   color: white;
   padding: 10px 80px;
-  margin: 1px solid white;
+  /* margin: 4px solid #4050b5; */
   border-radius: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -13,7 +13,7 @@ button {
   text-align: center;
 }
 .contact-div {
-  border: 1px solid white;
+  border: 1px solid #333333;
   margin: auto;
   width: 50%;
   height: 500px;
