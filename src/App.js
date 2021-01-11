@@ -5,10 +5,10 @@ import Contact from "./componets/Main/Contact";
 import { useState } from "react";
 
 function App() {
-  const [button, setButton] = useState(``);
+  const [button, setButton] = useState("");
 
   const clickingButton = () => {
-    setButton(() => <Contact />);
+    button === "" ? setButton(<Contact />) : setButton("");
   };
 
   return (
@@ -17,10 +17,7 @@ function App() {
       <div className="wrapper">
         <button onClick={clickingButton}>Contact List</button>
       </div>
-      <div className="contact-div">
-        {button}
-        {/* <Contact /> */}
-      </div>
+      <div className="contact-div">{button}</div>
       <Footer />
     </div>
   );
