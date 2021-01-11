@@ -1,13 +1,15 @@
+import "../contacts.css";
+
 function Contacts({ name, picture, email, cell, phone, ...contact }) {
   return (
-    <div className="contact-container">
-      <h1>{name.first}</h1>
-      <h1>{name.last}</h1>
-      <img src={picture.large} alt="" />
-      <h2> Home: {phone}</h2>
-      <h2> Mobile: {cell}</h2>
-      <h2> Email: {email}</h2>
-      <h2> Location: {contact.location.city}</h2>
+    <div className="info">
+      <h4>
+        {name.first}, {name.last}
+      </h4>
+
+      <img className="icon" src={picture.large} alt="" />
+      <h7> Home: {phone}</h7>
+      <h7> Mobile: {cell}</h7>
     </div>
   );
 }
