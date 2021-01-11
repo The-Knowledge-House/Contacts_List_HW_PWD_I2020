@@ -5,10 +5,14 @@ import Contact from "./componets/Main/Contact";
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       <Header />
-      <button>Contact List</button>
-      <Contact />
+      <div className="wrapper">
+        <button>Contact List</button>
+      </div>
+      <div className="contact-div">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );

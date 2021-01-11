@@ -1,4 +1,5 @@
+.div-header {
+  display: flex;
+}
 .icon {
-  margin-left: 1200px;
-  color: white;
 }

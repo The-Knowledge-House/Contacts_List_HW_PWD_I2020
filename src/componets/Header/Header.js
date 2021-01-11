@@ -11,10 +11,16 @@ const Header = () => {
         <IconButton edge="start" color="inherit" aria-label="menu">
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" color="inherit">
-          Contact List
-          <PhoneIcon className="icon" />
-        </Typography>
+        <div className="div-header">
+          <div className="logo">
+            <Typography variant="h6" color="inherit">
+              Contact List
+            </Typography>
+          </div>
+          <div className="icon">
+            <PhoneIcon />
+          </div>
+        </div>
       </Toolbar>
     </AppBar>
   );
