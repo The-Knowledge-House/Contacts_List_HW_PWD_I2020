@@ -1,5 +1,21 @@
-.App {
-  text-align: center;
+:root {
+  --first-color: #f1eee5;
+  --second-color: #e6e2d6;
+  --third-color: #ffff;
+  --fourth-color: #000000;
+  --fifth-color: #97aebc;
+  --shawdow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 
+.App {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 
+.iPhone {
+  width: 400px;
+  margin: auto;
+  box-shadow: var(--shawdow);
+}

@@ -1,3 +1,5 @@
+import "./css/Contact.css";
+
 function Contact({ picture, name, phone, cell, ...contact }) {
   // console.log("props", props);
   // const { contact } = props;
@@ -7,12 +9,13 @@ function Contact({ picture, name, phone, cell, ...contact }) {
     <div className="contact-view">
       <div className="person">
         <img src={picture.large} alt="" />
-        <h3 className="person-name">
-          {name.first} {name.last}
-        </h3>
-        <h5 className="person-home-num">Home: {phone}</h5>
-        <h5 className="person-mobile-num">Mobile: {cell}</h5>
-        <h5 className="person-home-num">Email: {contact.email}</h5>
+        <div className="person-info">
+          <h3 className="person-name">
+            {name.first} {name.last}
+          </h3>
+          <h5 className="person-home-num">Home: {phone}</h5>
+          <h5 className="person-mobile-num">Mobile: {cell}</h5>
+        </div>
       </div>
     </div>
   );

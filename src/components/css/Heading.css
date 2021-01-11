@@ -1,0 +1,65 @@
+:root {
+  --first-color: #f1eee5;
+  --second-color: #e6e2d6;
+  --third-color: #ffff;
+  --fourth-color: #000000;
+  --fifth-color: #97aebc;
+}
+
+.app-header {
+  width: 400px;
+  margin: auto;
+  overflow: hidden;
+  background-color: var(--first-color);
+  border-bottom: 6px solid var(--second-color);
+}
+
+.app-header div {
+  margin-top: -12px;
+}
+
+.app-header p {
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  padding: 4px 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.app-header a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--fifth-color);
+}
+
+.app-title {
+  align-items: baseline;
+  margin-top: -20px;
+}
+
+.app-title .header-groups {
+  align-self: baseline;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+
+.app-title .header-plus {
+  align-items: flex-end;
+  margin: 0;
+  margin-top: -30px;
+  margin-right: 25px;
+}
+
+.app-header h1 {
+  margin-top: -3px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+.app-header img {
+  width: 400px;
+}
