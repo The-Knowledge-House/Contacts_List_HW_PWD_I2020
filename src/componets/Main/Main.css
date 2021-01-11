@@ -1,27 +1,29 @@
 .container {
   height: 250px;
-
-  margin: 0 0;
+  margin: 0;
   border: 1px solid white;
-
   background: #424242;
 }
 .contactInfo {
-  display: flex;
-  justify-content: stretch;
   margin: 1em auto;
 }
 img {
   border-radius: 50%;
-  height: auto;
-  width: auto;
+  /* height: auto;
+  width: auto; */
   border: 1px solid white;
 }
-h3 {
+h4 {
   color: white;
-  margin: 5px 10px;
+  margin: -12px 8px;
 }
 p {
   color: white;
   margin: 10px;
+}
+.img-div {
+  display: flex;
+}
+.num {
+  margin: 1em auto;
 }
