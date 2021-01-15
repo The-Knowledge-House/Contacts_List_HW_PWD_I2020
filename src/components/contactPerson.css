@@ -1,0 +1,36 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  overflow: hidden;
+}
+.container {
+  border: 5px solid black;
+  overflow: auto;
+  background: white;
+  padding: 15px;
+  height: 70vh;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: stretch;
+  margin: auto;
+  border-bottom: 3px solid rgb(198, 195, 195);
+}
+
+.contact-container img {
+  border-radius: 50%;
+  border: 5px solid black;
+  margin: 3em;
+  width: auto;
+  height: auto;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}

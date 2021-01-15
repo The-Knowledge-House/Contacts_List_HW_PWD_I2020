@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
 }
 
-
+.App h1 {
+	background: white;
+	width: 50%;
+	margin: 1em auto;
+	padding: 0.5em;
+}
