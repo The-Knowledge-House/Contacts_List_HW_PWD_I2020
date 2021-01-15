@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.container {
+  height: 70vh;
+  width: 50%;
+  margin: 0 auto;
+  border: 4px solid black;
+  overflow: auto;
+  background: white;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: stretch;
+  margin: 1em auto;
+  border-bottom: 2px solid black;
+}
+.contact-container img {
+  width: auto;
+  height: auto;
+  border-radius: 100%;
+  border: 6px solid rgba(0, 0, 0, 0.781);
+  margin: 2em;
+}
+
+.text-info {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
