@@ -15,7 +15,7 @@ body {
 .contact-container {
   display: flex;
   justify-content: stretch;
-  margin: 1em auto;
+  margin: auto;
   border-bottom: 3px solid rgb(198, 195, 195);
 }
 
