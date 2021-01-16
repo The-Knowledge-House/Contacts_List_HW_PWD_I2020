@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import ContactList from "./components/ContactList";
 
 function App() {
   return (
     <div className="App">
-      <h1>Contact List</h1>
+      <div>
+        <Header />
+        <ContactList />
+        <Footer />
+      </div>
     </div>
   );
 }
