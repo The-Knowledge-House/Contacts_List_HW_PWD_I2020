@@ -1,0 +1,45 @@
+:root {
+    --first-color: #ffe082;
+    --second-color: #bfb8a4;
+    --third-color: #ffff;
+    --fourth-color: #000000;
+    --fifth-color: #97aebc;
+  }
+  
+  .contact-view {
+    width: 400px;
+    height: 130px;
+    margin: auto;
+    background-color: var(--first-color);
+    border-bottom: 3px solid var(--second-color);
+  }
+  
+  .person {
+    top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .person img {
+    float: left;
+    width: 25%;
+    height: auto;
+    margin: 0;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 3px solid var(--fifth-color);
+  }
+  
+  .person-info {
+    padding-left: 50px;
+  }
+  
+  .person-info h3 {
+    color: var(--fifth-color);
+  }
+  
+  @keyframes scroll {
+    100% {
+      top: -360px;
+    }
+  }
