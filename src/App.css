@@ -3,3 +3,25 @@
 }
 
 
+.container{
+  border: 2px solid black;
+  height: 500px;
+  width: 350px;
+  overflow: scroll;
+  margin: auto;
+}
+
+.contact-card-container{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ border-bottom: rgb(220, 220, 220) 1px solid;
+}
+
+.contact-card-container img.contact-img{
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+}
