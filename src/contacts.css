@@ -1,0 +1,67 @@
+.iphone {
+  /* background-image: url("/Users/jennifersmith/HomeFolder/tkh_assignments/ContactList_React/Contacts_List_HW_PWD_I2020/src/images/iPhone_frame.png"); */
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 880px;
+  background-position: center;
+  background-size: 61%;
+}
+html {
+  scroll-behavior: smooth;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  height: 220px;
+  width: 280px;
+  margin: 0;
+  margin-left: 510px;
+}
+.title {
+  color: white;
+  margin: 0;
+  margin-left: -180px;
+}
+.cont {
+  position: absolute;
+  margin: 30px;
+  max-height: 575px;
+  margin-left: 25px;
+  z-index: 1;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+}
+span {
+  min-width: 500px;
+  min-height: 90px;
+  display: block;
+  margin: 10px;
+}
+
+h4,
+h7 {
+  color: white;
+}
+
+.icon {
+  border-radius: 50%;
+  border: solid 2px;
+  margin: 0;
+  margin-top: -19px;
+  border-color: white;
+  height: 70px;
+  width: 70px;
+}
+
+.nav {
+  margin: 0;
+  margin-top: 80px;
+  height: 78px;
+  width: 328px;
+  border-radius: 19px;
+  z-index: -1;
+}
