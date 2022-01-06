@@ -1,4 +1,4 @@
-const Card = ({ fn, ln, email, phone, picture }) => {
+const Card = ({ fn, ln, email, phone, picture, handleClick, postcode }) => {
   return (
     <div className="contact-card">
       <div className="image-container">
@@ -11,6 +11,9 @@ const Card = ({ fn, ln, email, phone, picture }) => {
         <div className="details">
           <p className="email">{email}</p>
           <p className="phone">{phone}</p>
+        </div>
+        <div className="remove">
+          <button type="button" onClick={() => handleClick(postcode)} >X</button>
         </div>
       </div>
     </div>
