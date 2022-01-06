@@ -6,8 +6,98 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  width: 100%;
+  height: 100vh;
+}
+.contacts-container {
+  width: 650px;
+  height: 500px;
+  overflow: auto;
+  outline: 2px solid #ccc;
+
+  max-width: 100%;
+}
+.contact-card {
+  outline: 1px solid #ccc;
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.image-container {
+  border-right: 1px solid #ccc;
+  background-color: #ccb;
+  width: 200px;
+  height: 100%;
+
+  max-width: 150px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  /* outline: 1px solid #ccc; */
+  height: 100%;
+  width: 100%;
+
+  position: relative;
+
+}
+.names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 5px;
+  width: 100%;
+  text-transform: capitalize;
+  /* outline: 1px solid red; */
+}
+.names::before {
+  content: 'Name: ';
+  font-weight: bold;
+  /* font-size: 1.2rem; */
+}
+.email::before {
+  content: 'Email: ';
+  font-weight: bold;
+  /* font-size: 1.2rem; */
+}
+.phone::before {
+  content: 'Phone: ';
+  font-weight: bold;
+  /* font-size: 1.2rem; */
+}
+.details {
+  /* outline: 1px solid red; */
+
+  width: 100%;
+}
+.remove {
+  /* outline: 2px solid #ccc; */
+  height: 20px;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  cursor: pointer;
 }
