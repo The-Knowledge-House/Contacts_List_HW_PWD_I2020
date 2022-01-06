@@ -6,8 +6,7 @@ const Card = ({ fn, ln, email, phone, picture }) => {
       </div>
       <div className="contact-info">
         <div className="names">
-          <p>{fn}</p>
-          <p>{ln}</p>
+          <p>{fn} {ln}</p>
         </div>
         <div className="details">
           <p className="email">{email}</p>

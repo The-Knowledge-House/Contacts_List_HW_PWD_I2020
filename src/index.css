@@ -20,6 +20,8 @@ body {
   height: 500px;
   overflow: auto;
   outline: 2px solid #ccc;
+
+  max-width: 100%;
 }
 .contact-card {
   outline: 1px solid #ccc;
@@ -32,8 +34,11 @@ body {
 }
 .image-container {
   border-right: 1px solid #ccc;
+  background-color: #ccb;
   width: 200px;
   height: 100%;
+
+  max-width: 150px;
 
   display: flex;
   flex-direction: row;
@@ -44,6 +49,7 @@ img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  /* object-fit: cover; */
 }
 .contact-info {
   display: flex;
@@ -58,7 +64,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 0 5px;
   width: 100%;
   text-transform: capitalize;
   /* outline: 1px solid red; */
