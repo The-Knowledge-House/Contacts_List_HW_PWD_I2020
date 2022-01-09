@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Amoorer75/Contacts_List_HW_PWD_I2020.git",
+  "author": "Amoorer75 <Amoorer127@gmail.com>",
+  "license": "MIT"
 }
